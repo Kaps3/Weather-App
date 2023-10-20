@@ -1,0 +1,120 @@
+
+/* Apply styles to all elements, resetting margins, padding, and setting the font family */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+} 
+
+/* Define styles for the entire body of the webpage */
+ body{
+    background: #222;
+ }
+
+ /* Style the main card container for the weather information */
+ .card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #4ba8e1, #012505);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+ }
+
+ /* Style the search section */
+ .search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ /* Style the search input field */
+ .search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffe;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+ }
+
+ /* Style the search button */
+ .search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffe;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+ }
+
+ /* Style the search button's image */
+ .search button img {
+    width: 16px;
+ }
+ 
+ /* Style the weather icon */
+ .weather-icon{
+    width: 170px;
+    margin-top: 30px;
+ }
+
+ /* Style the temperature display */
+ .weather h1{
+    font-size: 80px;
+    font-weight: 500;
+ }
+
+
+ /* Style the city name display */
+ .weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+ }
+
+
+ /* Style the details section (humidity and wind speed) */
+ .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+ }
+
+ /* Style each column within the details section */
+ .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+ }
+
+ /* Style icons within each column */
+ .col img{
+    width: 40px;
+    margin-right: 10px;
+ }
+
+ /* Style the font size and alignment of humidity and wind speed */
+ .humidity, .wind{
+    font-size: 28px;
+    margin-top: -6;
+ }
+
+ /* Style for displaying error messages (initially hidden) */
+ .error{
+   text-align: left;
+   margin-left: 10px;
+   font-size: 14px;
+   margin-top: 10px;
+   display: none;
+ }
