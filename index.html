@@ -67,12 +67,6 @@
         // Fetch weather data from OpenWeatherMap API
         const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
         
-        
-        if (!response.ok) {
-        // Handle HTTP error
-        throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        
         // Parse the JSON response
         const data = await response.json();
 
