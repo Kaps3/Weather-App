@@ -1,2 +1,13 @@
 # Weather-App
-Stay ahead of the weather with Weather App, your trusted companion for all things meteorological. Whether you're planning a weekend getaway, preparing for your daily commute, or simply want to stay informed about the conditions outside, Weather App has you covered.
+
+This is a simple web-based weather app that allows you to check the weather in a city. It fetches weather data from the OpenWeatherMap API and displays it in a user-friendly format.
+
+## Usage
+
+To use this weather app, you need to have access to the OpenWeatherMap API and replace the `apiKey` in the JavaScript code with your own API key.
+
+## How to Use
+
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
